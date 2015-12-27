@@ -1,0 +1,9 @@
+---
+title: "README"
+output: html_document
+---
+
+1. Download the data (link given in the Codebook) into a folder on your computer. You will see a folder named ```UCI HAR Dataset``` after unzipping the file.
+2. Set the working directory to the ```UCI HAR Dataset``` folder and put ```run_analysis.R``` to the same folder.
+3. Install the package ```plyr``` (install.packages("plyr"))
+4. After the script is executed (source("run_analysis.R")), it will generate a new file ```tidydata.txt``` in your current working directory folder (```UCI HAR Dataset```).
